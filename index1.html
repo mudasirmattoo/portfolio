@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortfolioAbout</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5312aac142.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="bg-black text-white overflow-y-auto">
+    <!--header-->
+
+    <header class="bg-none text-white sticky top-0 opacity-80">
+      <nav class="p-5 lg:mx-72">
+        <div class="flex justify-center lg:flex lg:justify-between">
+          <div class="">
+            <img class="h-16 w-16 object-cover" src="mylogo.png" alt="" />
+          </div>
+          <div>
+            <ul class="hidden lg:flex lg:space-x-10 lg:p-5 lg:text-base">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="http://127.0.0.1:5500/public/index.html#skill"
+                  >Skills</a
+                >
+              </li>
+              <li>
+                <a href="http://127.0.0.1:5500/public/index.html#about"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--for smallscreen-->
+
+        <ul
+          class="visible flex space-x-10 justify-center bg-zinc-900 rounded-xl p-3 text-xs font-thin mt-2 lg:hidden"
+        >
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:5500/public/index.html#skill">Skills</a>
+          </li>
+          <li>
+            <a href="http://127.0.0.1:5500/public/index.html#about">About</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--about-->
+
+    <div class="mt-10">
+      <h1
+        class="text-xs md:text-sm font-semibold text-blue-400 pb-10 tracking-widest text-center"
+      >
+        RECENT WORKS
+      </h1>
+      <div class="flex justify-center my-10">
+        <div class="rounded-lg h-96 w-72 bg-zinc-900">
+          <img
+            class="m-auto h-44 w-80 object-cover pt-5"
+            src="vimaanas.jpg"
+            alt=""
+          />
+          <h1 class="text-xl font-semibold text-center py-2">
+            Vimaanas Recruitment Portal
+          </h1>
+          <p class="text-sm font-normal text-neutral-200 text-justify p-2">
+            I worked as a member of Frontend team in designing the recruitment
+            portal for new recruitments(2023), where we used Html, Tailwindcss
+            and Javascript
+          </p>
+          <div class="text-center text-3xl">
+            <a href=""
+              ><button
+                class="rounded px-3 pt-5 text-blue-500 font-medium tracking-wider"
+              >
+                <i class="fa-regular fa-hand-point-right"></i></button
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+  <!--footer-->
+  <footer id="contact">
+    <div
+      class="hidden md:visible md:flex md:justify-evenly md:space-x-10 md:text-white md:p-5 md:bg-zinc-900"
+    >
+      <div class="flex-row py-2 w-3/12">
+        <h1 class="text-base font-medium pb-2">Portfolio inspired from</h1>
+        <div class="text-xs font-light py-2">
+          <a
+            href="https://www.ojieame.design/#GRAPHIC"
+            class="text-white hover:bg-gradient-to-br from-[#52c9f4] to-[#06a8ff] inline-block hover:text-transparent hover:bg-clip-text"
+            target="_blank"
+            >Ojieame <i class="fa-solid fa-arrow-trend-up"></i
+          ></a>
+        </div>
+        <div class="text-xs font-light py-2">
+          <a
+            href="https://www.seanhalpin.xyz/"
+            class="text-white hover:bg-gradient-to-br from-[#52c9f4] to-[#06a8ff] inline-block hover:text-transparent hover:bg-clip-text"
+            target="_blank"
+            >Sean Halpin <i class="fa-solid fa-arrow-trend-up"></i
+          ></a>
+        </div>
+        <div class="text-xs font-light py-2">
+          <a
+            href="https://viper-18.github.io/portfolio/"
+            class="text-white hover:bg-gradient-to-br from-[#52c9f4] to-[#06a8ff] inline-block hover:text-transparent hover:bg-clip-text"
+            target="_blank"
+            >Dharshan Amarnath <i class="fa-solid fa-arrow-trend-up"></i
+          ></a>
+        </div>
+      </div>
+      <div class="text-6xl w-3/12 flex justify-center">
+        <div
+          class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 my-auto"
+        >
+          <button class="">
+            <a href="https://github.com/mudasirmattoo" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </button>
+        </div>
+      </div>
+      <div class="flex-row justify-end w-3/12 py-2">
+        <div class="flex justify-end">
+          <h1 class="text-base font-medium text-left">Contact</h1>
+        </div>
+        <div class="flex space-x-6 justify-end">
+          <div class="text-xl py-2">
+            <button
+              class="text-white hover:bg-gradient-to-br from-[#00aeef] to-[#2d388a] inline-block hover:text-transparent hover:bg-clip-text"
+            >
+              <a
+                href="https://www.linkedin.com/in/mudasir-mushtaq-47293925b/b"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </button>
+          </div>
+
+          <div class="text-xl py-2">
+            <button
+              class="text-white hover:bg-gradient-to-br from-indigo-600 to-pink-500 inline-block hover:text-transparent hover:bg-clip-text"
+            >
+              <a
+                href="https://www.instagram.com/mudasirmushtaq_/"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+        <div class="flex space-x-4 justify-end">
+          <div class="text-xl py-2">
+            <button
+              class="text-white hover:bg-gradient-to-br from-[#fbb040] to-[#f9ed32] inline-block hover:text-transparent hover:bg-clip-text"
+            >
+              <a href="mailto:work.mudasirmattoo@gmail.com" target="_blank"
+                ><i class="fa-solid fa-envelope-circle-check"></i
+              ></a>
+            </button>
+          </div>
+
+          <div class="text-xl py-2">
+            <button
+              class="text-white hover:bg-gradient-to-br from-green-300 to-green-700 inline-block hover:text-transparent hover:bg-clip-text"
+            >
+              <a href="https://wa.me/917006722538" target="_blank"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--footer for phone-->
+    <div class="visible md:hidden">
+      <div
+        class="text-center flex-row justify-center items-center mx-auto mb-14 border border-yellow-500 rounded-lg w-4/6"
+      >
+        <div class="">
+          <h1
+            class="text-xs md:text-sm font-bold text-white tracking-widest text-center p-2"
+          >
+            PORTFOLIO INSPIRED FROM
+          </h1>
+        </div>
+        <div class="text-xs font-light py-2">
+          <a href="https://www.ojieame.design/#GRAPHIC" target="_blank"
+            >Ojieame <i class="fa-solid fa-arrow-trend-up"></i
+          ></a>
+        </div>
+        <div class="text-xs font-light py-2">
+          <a href="https://www.seanhalpin.xyz/" target="_blank"
+            >Sean Halpin <i class="fa-solid fa-arrow-trend-up"></i
+          ></a>
+        </div>
+        <div class="text-xs font-light py-2">
+          <a href="https://viper-18.github.io/portfolio/" target="_blank"
+            >Dharshan Amarnath <i class="fa-solid fa-arrow-trend-up"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="bg-zinc-900">
+        <div class="py-3">
+          <h1
+            class="text-xs md:text-sm font-bold text-white tracking-widest text-center p-2"
+          >
+            MY SOCIALS
+          </h1>
+        </div>
+        <div class="flex justify-center align-middle py-5">
+          <div class="text-lg my-auto py-2 px-5">
+            <button
+              class="text-white bg-gradient-to-br from-[#00aeef] to-[#2d388a] inline-block text-transparent bg-clip-text"
+            >
+              <a
+                href="https://www.linkedin.com/in/mudasir-mushtaq-47293925b/b"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </button>
+          </div>
+
+          <div class="text-lg my-auto py-2 px-5">
+            <button
+              class="text-white bg-gradient-to-br from-[#fbb040] to-[#f9ed32] inline-block text-transparent bg-clip-text"
+            >
+              <a href="mailto:work.mudasirmattoo@gmail.com" target="_blank"
+                ><i class="fa-solid fa-envelope-circle-check"></i
+              ></a>
+            </button>
+          </div>
+
+          <div class="px-5 text-6xl">
+            <button class="">
+              <a href="https://github.com/mudasirmattoo" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </button>
+          </div>
+
+          <div class="text-lg my-auto py-2 px-5">
+            <button
+              class="text-white bg-gradient-to-br from-indigo-600 to-pink-500 inline-block text-transparent bg-clip-text"
+            >
+              <a
+                href="https://www.instagram.com/mudasirmushtaq_/"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </button>
+          </div>
+
+          <div class="text-lg my-auto py-2 px-5">
+            <button
+              class="text-white bg-gradient-to-br from-green-300 to-green-700 inline-block text-transparent bg-clip-text"
+            >
+              <a href="https://wa.me/917006722538" target="_blank"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="bg-zinc-900 text-center">
+    <p class="text-xs font-thin py-2">
+      ©2023 Mudasir Mushtaq<br />
+      created Feb, 2023
+    </p>
+  </div>
+</html>
