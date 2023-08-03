@@ -1,562 +1,381 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/5312aac142.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body class="bg-black text-white">
-    <header class="bg-none text-white sticky top-0 opacity-80">
-      <nav class="p-5 lg:mx-72">
-        <div class="flex justify-center lg:flex lg:justify-between">
-          <div class="">
-            <img class="h-16 w-16 object-cover" src="mylogo.png" alt="" />
-          </div>
-          <div>
-            <ul class="hidden lg:flex lg:space-x-10 lg:p-5 lg:text-base">
-              <li>
-                <a href="index.html">Home</a>
-              </li>
-              <li>
-                <a href="http://127.0.0.1:5500/public/index.html#skill"
-                  >Skills</a
-                >
-              </li>
-              <li>
-                <a href="http://127.0.0.1:5500/public/index.html#about"
-                  >About</a
-                >
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/5312aac142.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-black text-white">
+  <header class="bg-none text-white sticky top-0 opacity-80">
+    <nav class="p-5 lg:mx-72">
+      <div class="flex justify-center lg:flex lg:justify-between">
+        <div class="">
+          <img class="h-16 w-16 object-cover" src="mylogo.png" alt="" />
         </div>
-
-        <!--for smallscreen-->
-
-        <ul
-          class="visible flex space-x-10 justify-center bg-zinc-900 rounded-xl p-3 text-xs font-thin mt-2 lg:hidden"
-        >
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="http://127.0.0.1:5500/public/index.html#skill">Skills</a>
-          </li>
-          <li>
-            <a href="http://127.0.0.1:5500/public/index.html#about">About</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <!--Intro-->
-    <div class="hidden md:flex md:justify-center md:mt-20">
-      <div class="w-2/6 pt-14">
-        <h1 class="text-2xl font-bold">Hello! It's me</h1>
-        <h1 class="text-8xl font-exo font-extrabold">Mudasir.</h1>
-        <h2 class="text-2xl font-bold">a web developer</h2>
-        <p class="text-sm text-neutral-300 font-thin font-sac leading-relaxed">
-          I am an enthusiastic web developer & a cricket freak, developing & designing websites for you 
-        </p>
-        <p class="text-sm text-neutral-300 font-thin font-sac leading-relaxed">
-          <i class="fa-solid fa-location-dot text-white"></i><span> </span> All
-          the way from Kashmir, J&K, India
-        </p>
+        <div>
+          <ul class="hidden lg:flex lg:space-x-10 lg:p-5 lg:text-base">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="index1.html#skills">Skills</a>
+            </li>
+            <li>
+              <a href="index1.html#work">Work</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="h-full w-1/6 object-cover">
-        <img src="profile.jpg" alt="" />
+
+      <!--for smallscreen-->
+
+      <ul class="visible flex space-x-10 justify-center bg-zinc-900 rounded-xl p-3 text-xs font-thin mt-2 lg:hidden">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="index1.html#skills">Skills</a>
+        </li>
+        <li>
+          <a href="index1.html#work">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Intro-->
+  <div class="hidden md:flex md:justify-center md:mt-20">
+    <div class="w-2/6 pt-14">
+      <h1 class="text-2xl font-bold">Hello! It's me</h1>
+      <h1 class="text-8xl font-exo font-extrabold">Mudasir.</h1>
+      <h2 class="text-2xl font-bold">a web developer</h2>
+      <p class="text-sm text-neutral-300 font-thin font-sac leading-relaxed">
+        I am an enthusiastic web developer & a cricket freak, developing & designing websites for you
+      </p>
+      <p class="text-sm text-neutral-300 font-thin font-sac leading-relaxed">
+        <i class="fa-solid fa-location-dot text-white"></i><span> </span> All
+        the way from Kashmir, J&K, India
+      </p>
+    </div>
+    <div class="h-full w-1/6 object-cover">
+      <img src="profile.jpg" alt="" />
+    </div>
+  </div>
+
+  <!--Intro for smallscreen-->
+  <div class="flex justify-center mt-20 md:hidden">
+    <div class="w-3/4 pt-72 z-1 absolute">
+      <h1 class="text-xl font-bold text-center">Hello! It's me</h1>
+      <h1 class="text-6xl font-extrabold text-center">Mudasir.</h1>
+      <h2 class="text-xl font-bold text-center">a web developer</h2>
+      <p class="text-xs text-neutral-400 font-thin text-justify tracking-widest">
+        I am an enthusiastic web developer & a cricket freak
+      </p>
+      <p class="text-xs text-neutral-400 font-thin text-justify tracking-widest">
+        <i class="fa-solid fa-location-dot text-white"></i><span> </span> All
+        the way from Kashmir, J&K, India
+      </p>
+    </div>
+    <div class="h-full w-full object-cover">
+      <img src="profile.jpg" alt="" />
+    </div>
+  </div>
+
+  <!--skillset-->
+  <section id="skill">
+    <div class="p-7 md:flex md:justify-center md:space-x-5 mt-10 md:mt-32">
+      <div class="text-center md:text-left md:w-2/6">
+        <h1 class="text-xs md:text-sm font-semibold text-blue-400 pb-10 tracking-widest">
+          MY SKILLSET
+        </h1>
+        <h1 class="text-4xl font-extrabold md:text-6xl md:font-bold">
+          Front-end Development
+        </h1>
+        <h1 class="text-4xl font-extrabold md:text-6xl md:font-bold">&</h1>
+        <h1 class="text-4xl font-extrabold md:text-6xl md:font-bold">
+          Design
+        </h1>
+      </div>
+      <div
+        class="md:w-2/6 p-5 mt-12  transition ease-in-out delay-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-black duration-700">
+        <p class="text-sm text-neutral-400 font-normal text-justify tracking-widest leading-relaxed">
+          Hi there! I'm Mudasir, a passionate Front-End Web Developer with a creative flair for designing and
+          developing visually appealing and user-friendly websites. I thrive on turning ideas into beautiful,
+          functional, and interactive digital experiences.As a seasoned Front-End Developer, I'm proficient in HTML,
+          CSS, and JavaScript . My extensive knowledge of responsive design ensures
+          that every website I create looks stunning on any device. I have experience working with various front-end
+          frameworks like tailwindcss, bootstrap and jquery, enabling me to build dynamic and efficient applications
+          that
+          cater to diverse user needs. I am still learning the backend using Django.
+        </p>
       </div>
     </div>
 
-    <!--Intro for smallscreen-->
-    <div class="flex justify-center mt-20 md:hidden">
-      <div class="w-3/4 pt-72 z-1 absolute">
-        <h1 class="text-xl font-bold text-center">Hello! It's me</h1>
-        <h1 class="text-6xl font-extrabold text-center">Mudasir.</h1>
-        <h2 class="text-xl font-bold text-center">a web developer</h2>
-        <p
-          class="text-xs text-neutral-400 font-thin text-justify tracking-widest"
-        >
-          I am an enthusiastic web developer & a cricket freak
-        </p>
-        <p
-          class="text-xs text-neutral-400 font-thin text-justify tracking-widest"
-        >
-          <i class="fa-solid fa-location-dot text-white"></i><span> </span> All
-          the way from Kashmir, J&K, India
-        </p>
+    <!-- skillset About-->
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js" defer></script>
+    <div class="py-20 px-10 bg-black">
+      <div class="grid grid-cols-1 md:flex flex-wrap md:justify-center gap-20 lg:grid-cols-2 lg:gap-10">
+        <div
+          class="flex items-center flex-wrap max-w-md px-10 bg-zinc-900 shadow-xl rounded-2xl h-20 md:w-2/6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+          x-data="{ circumference: 50 * 2 * Math.PI, percent: 70 }">
+          <div class="flex items-center justify-center -m-6 overflow-hidden bg-zinc-900 rounded-full">
+            <svg class="w-32 h-32 transform translate-x-1 translate-y-1" x-cloak aria-hidden="true">
+              <circle class="text-white" stroke-width="10" stroke="currentColor" fill="transparent" r="50" cx="60"
+                cy="60" />
+              <circle class="text-blue-500" stroke-width="10" :stroke-dasharray="circumference"
+                :stroke-dashoffset="circumference - percent / 100 * circumference" stroke-linecap="round"
+                stroke="currentColor" fill="transparent" r="50" cx="60" cy="60" />
+            </svg>
+            <span class="absolute text-2xl text-blue-500" x-text="`${percent}%`"></span>
+          </div>
+          <p class="ml-10 font-medium text-gray-600 sm:text-xl">Front-end</p>
+        </div>
+
+        <div
+          class="flex items-center flex-wrap max-w-md px-10 bg-zinc-900 shadow-xl rounded-2xl h-20 md:w-2/6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+          x-data="{ circumference: 50 * 2 * Math.PI, percent: 5}">
+          <div class="flex items-center justify-center -m-6 overflow-hidden bg-zinc-900 rounded-full">
+            <svg class="w-32 h-32 transform translate-x-1 translate-y-1" x-cloak aria-hidden="true">
+              <circle class="text-white" stroke-width="10" stroke="currentColor" fill="transparent" r="50" cx="60"
+                cy="60" />
+              <circle class="text-red-600" stroke-width="10" :stroke-dasharray="circumference"
+                :stroke-dashoffset="circumference - percent / 100 * circumference" stroke-linecap="round"
+                stroke="currentColor" fill="transparent" r="50" cx="60" cy="60" />
+            </svg>
+            <span class="absolute text-2xl text-red-700" x-text="`${percent}%`"></span>
+          </div>
+          <p class="ml-10 font-medium text-gray-600 sm:text-xl">Backend</p>
+        </div>
+
+        <div
+          class="flex items-center flex-wrap max-w-md px-10 bg-zinc-900 shadow-xl rounded-2xl h-20 md:w-2/6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+          x-data="{ circumference: 50 * 2 * Math.PI, percent: 50 }">
+          <div class="flex items-center justify-center -m-6 overflow-hidden bg-zinc-900 rounded-full">
+            <svg class="w-32 h-32 transform translate-x-1 translate-y-1" x-cloak aria-hidden="true">
+              <circle class="text-white" stroke-width="10" stroke="currentColor" fill="transparent" r="50" cx="60"
+                cy="60" />
+              <circle class="text-yellow-500" stroke-width="10" :stroke-dasharray="circumference"
+                :stroke-dashoffset="circumference - percent / 100 * circumference" stroke-linecap="round"
+                stroke="currentColor" fill="transparent" r="50" cx="60" cy="60" />
+            </svg>
+            <span class="absolute text-2xl text-yellow-500" x-text="`${percent}%`"></span>
+          </div>
+          <p class="ml-10 font-medium text-gray-600 sm:text-xl">Design</p>
+        </div>
       </div>
-      <div class="h-full w-full object-cover">
-        <img src="profile.jpg" alt="" />
+
+      <h1 class="py-20 text-center text-xl font-semibold">
+        And ofcourse, the love of my life
+      </h1>
+      <div class="flex justify-center">
+        <div
+          class="flex items-center flex-wrap px-10 bg-zinc-900 shadow-xl rounded-2xl h-20 w-full text-left md:w-2/6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+          x-data="{ circumference: 50 * 2 * Math.PI, percent: 70 }">
+          <div class="flex items-center justify-center -m-6 overflow-hidden bg-zinc-900 rounded-full">
+            <svg class="w-32 h-32 transform translate-x-1 translate-y-1" x-cloak aria-hidden="true">
+              <circle class="text-white" stroke-width="10" stroke="currentColor" fill="transparent" r="50" cx="60"
+                cy="60" />
+              <circle class="text-green-600" stroke-width="10" :stroke-dasharray="circumference"
+                :stroke-dashoffset="circumference - percent / 100 * circumference" stroke-linecap="round"
+                stroke="currentColor" fill="transparent" r="50" cx="60" cy="60" />
+            </svg>
+            <span class="absolute text-2xl text-green-600" x-text="`${percent}%`"></span>
+          </div>
+          <p class="ml-10 font-medium text-gray-600 sm:text-xl">Cricket</p>
+        </div>
       </div>
     </div>
+  </section>
 
-    <!--skillset-->
-    <section id="skill">
-      <div class="p-7 md:flex md:justify-center md:space-x-5 mt-10 md:mt-32">
-        <div class="text-center md:text-left md:w-2/6">
-          <h1
-            class="text-xs md:text-sm font-semibold text-blue-400 pb-10 tracking-widest"
-          >
-            MY SKILLSET
-          </h1>
-          <h1 class="text-4xl font-extrabold md:text-6xl md:font-bold">
-            Front-end Development
-          </h1>
-          <h1 class="text-4xl font-extrabold md:text-6xl md:font-bold">&</h1>
-          <h1 class="text-4xl font-extrabold md:text-6xl md:font-bold">
-            Design
-          </h1>
-        </div>
-        <div
-          class="md:w-2/6 p-5 mt-12 border border-white rounded-lg transition ease-in-out delay-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-black duration-700"
-        >
-          <p
-            class="text-sm text-neutral-400 font-normal text-justify tracking-widest leading-relaxed"
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            Developer. I specialize in designing and developing web
-            applications.enim ad minim voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonalways wanted to be a
-            crickelaboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit i.
-          </p>
-        </div>
-      </div>
-
-      <!-- skillset About-->
-      <script
-        src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.min.js"
-        defer
-      ></script>
-      <div class="py-20 px-10 bg-black">
-        <div
-          class="grid grid-cols-1 md:flex flex-wrap md:justify-center gap-20 lg:grid-cols-2 lg:gap-10"
-        >
-          <div
-            class="flex items-center flex-wrap max-w-md px-10 bg-zinc-900 shadow-xl rounded-2xl h-20 md:w-2/6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
-            x-data="{ circumference: 50 * 2 * Math.PI, percent: 70 }"
-          >
-            <div
-              class="flex items-center justify-center -m-6 overflow-hidden bg-zinc-900 rounded-full"
-            >
-              <svg
-                class="w-32 h-32 transform translate-x-1 translate-y-1"
-                x-cloak
-                aria-hidden="true"
-              >
-                <circle
-                  class="text-white"
-                  stroke-width="10"
-                  stroke="currentColor"
-                  fill="transparent"
-                  r="50"
-                  cx="60"
-                  cy="60"
-                />
-                <circle
-                  class="text-blue-500"
-                  stroke-width="10"
-                  :stroke-dasharray="circumference"
-                  :stroke-dashoffset="circumference - percent / 100 * circumference"
-                  stroke-linecap="round"
-                  stroke="currentColor"
-                  fill="transparent"
-                  r="50"
-                  cx="60"
-                  cy="60"
-                />
-              </svg>
-              <span
-                class="absolute text-2xl text-blue-500"
-                x-text="`${percent}%`"
-              ></span>
-            </div>
-            <p class="ml-10 font-medium text-gray-600 sm:text-xl">Front-end</p>
-          </div>
-
-          <div
-            class="flex items-center flex-wrap max-w-md px-10 bg-zinc-900 shadow-xl rounded-2xl h-20 md:w-2/6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
-            x-data="{ circumference: 50 * 2 * Math.PI, percent: 5}"
-          >
-            <div
-              class="flex items-center justify-center -m-6 overflow-hidden bg-zinc-900 rounded-full"
-            >
-              <svg
-                class="w-32 h-32 transform translate-x-1 translate-y-1"
-                x-cloak
-                aria-hidden="true"
-              >
-                <circle
-                  class="text-white"
-                  stroke-width="10"
-                  stroke="currentColor"
-                  fill="transparent"
-                  r="50"
-                  cx="60"
-                  cy="60"
-                />
-                <circle
-                  class="text-red-600"
-                  stroke-width="10"
-                  :stroke-dasharray="circumference"
-                  :stroke-dashoffset="circumference - percent / 100 * circumference"
-                  stroke-linecap="round"
-                  stroke="currentColor"
-                  fill="transparent"
-                  r="50"
-                  cx="60"
-                  cy="60"
-                />
-              </svg>
-              <span
-                class="absolute text-2xl text-red-700"
-                x-text="`${percent}%`"
-              ></span>
-            </div>
-            <p class="ml-10 font-medium text-gray-600 sm:text-xl">Backend</p>
-          </div>
-
-          <div
-            class="flex items-center flex-wrap max-w-md px-10 bg-zinc-900 shadow-xl rounded-2xl h-20 md:w-2/6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
-            x-data="{ circumference: 50 * 2 * Math.PI, percent: 50 }"
-          >
-            <div
-              class="flex items-center justify-center -m-6 overflow-hidden bg-zinc-900 rounded-full"
-            >
-              <svg
-                class="w-32 h-32 transform translate-x-1 translate-y-1"
-                x-cloak
-                aria-hidden="true"
-              >
-                <circle
-                  class="text-white"
-                  stroke-width="10"
-                  stroke="currentColor"
-                  fill="transparent"
-                  r="50"
-                  cx="60"
-                  cy="60"
-                />
-                <circle
-                  class="text-yellow-500"
-                  stroke-width="10"
-                  :stroke-dasharray="circumference"
-                  :stroke-dashoffset="circumference - percent / 100 * circumference"
-                  stroke-linecap="round"
-                  stroke="currentColor"
-                  fill="transparent"
-                  r="50"
-                  cx="60"
-                  cy="60"
-                />
-              </svg>
-              <span
-                class="absolute text-2xl text-yellow-500"
-                x-text="`${percent}%`"
-              ></span>
-            </div>
-            <p class="ml-10 font-medium text-gray-600 sm:text-xl">Design</p>
-          </div>
-        </div>
-
-        <h1 class="py-20 text-center text-xl font-semibold">
-          And ofcourse, the love of my life
-        </h1>
-        <div class="flex justify-center">
-          <div
-            class="flex items-center flex-wrap px-10 bg-zinc-900 shadow-xl rounded-2xl h-20 w-full text-left md:w-2/6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
-            x-data="{ circumference: 50 * 2 * Math.PI, percent: 70 }"
-          >
-            <div
-              class="flex items-center justify-center -m-6 overflow-hidden bg-zinc-900 rounded-full"
-            >
-              <svg
-                class="w-32 h-32 transform translate-x-1 translate-y-1"
-                x-cloak
-                aria-hidden="true"
-              >
-                <circle
-                  class="text-white"
-                  stroke-width="10"
-                  stroke="currentColor"
-                  fill="transparent"
-                  r="50"
-                  cx="60"
-                  cy="60"
-                />
-                <circle
-                  class="text-green-600"
-                  stroke-width="10"
-                  :stroke-dasharray="circumference"
-                  :stroke-dashoffset="circumference - percent / 100 * circumference"
-                  stroke-linecap="round"
-                  stroke="currentColor"
-                  fill="transparent"
-                  r="50"
-                  cx="60"
-                  cy="60"
-                />
-              </svg>
-              <span
-                class="absolute text-2xl text-green-600"
-                x-text="`${percent}%`"
-              ></span>
-            </div>
-            <p class="ml-10 font-medium text-gray-600 sm:text-xl">Cricket</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--about me-->
-    <section class="about">
-      <div class="flex gap-8 justify-center pt-10 px-10">
-        <h1
-          class="text-xs md:text-sm font-semibold text-blue-400 tracking-widest"
-        >
-          FOR MORE ABOUT ME
-        </h1>
-        <a href="index1.html" class="animate-bounce"
-          ><i class="fa-solid fa-circle-chevron-right"></i
-        ></a>
-      </div>
-      <div class="flex gap-8 justify-center pt-10 px-10">
-        <a href="resume.pdf" target="_blank">   <h1
-          class="text-xs md:text-sm font-semibold text-blue-400 tracking-widest"
-        >
+  <!--about me-->
+  <section class="about">
+    <div class="flex gap-8 justify-center pt-10 px-10">
+      <h1 class="text-xs md:text-sm font-semibold text-blue-400 tracking-widest">
+        FOR MORE ABOUT ME
+      </h1>
+      <a href="index1.html" class="animate-bounce"><i class="fa-solid fa-circle-chevron-right"></i></a>
+    </div>
+    <div class="flex gap-8 justify-center pt-10 px-10">
+      <a href="resume.pdf" target="_blank">
+        <h1 class="text-xs md:text-sm font-semibold text-blue-400 tracking-widest">
           RESUME
-        </h1></a>
+        </h1>
+      </a>
+    </div>
+    <div class="py-14">
+      <div
+        class="flex justify-center items-center w-3/6 md:w-1/6 border border-blue-400 rounded-lg shadow-md shadow-blue-400 m-auto animate-pulse">
+        <a href="https://wa.me/917006722538" target="_blank">
+          <h1 class="text-xs md:text-sm font-bold text-white tracking-widest text-center p-2">
+            OPEN TO WORK
+          </h1>
+        </a>
       </div>
-      <div class="py-14">
-        <div
-          class="flex justify-center items-center w-3/6 md:w-1/6 border border-blue-400 rounded-lg shadow-md shadow-blue-400 m-auto animate-pulse"
-        >
-          <a href="https://wa.me/917006722538" target="_blank"
-            ><h1
-              class="text-xs md:text-sm font-bold text-white tracking-widest text-center p-2"
-            >
-              OPEN TO WORK
-            </h1></a
-          >
-        </div>
-      </div>
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
 
-  <!--footer-->
-  <footer id="contact">
-    <div
-      class="hidden md:visible md:flex md:justify-evenly md:space-x-10 md:text-white md:p-5 md:bg-zinc-900"
-    >
-      <div class="flex-row py-2 w-3/12">
-        <h1 class="text-base font-medium pb-2">Portfolio inspired from</h1>
-        <div class="text-xs font-light py-2">
-          <a
-            href="https://www.ojieame.design/#GRAPHIC"
-            class="text-white hover:bg-gradient-to-br from-[#52c9f4] to-[#06a8ff] inline-block hover:text-transparent hover:bg-clip-text"
-            target="_blank"
-            >Ojieame <i class="fa-solid fa-arrow-trend-up"></i
-          ></a>
-        </div>
-        <div class="text-xs font-light py-2">
-          <a
-            href="https://www.seanhalpin.xyz/"
-            class="text-white hover:bg-gradient-to-br from-[#52c9f4] to-[#06a8ff] inline-block hover:text-transparent hover:bg-clip-text"
-            target="_blank"
-            >Sean Halpin <i class="fa-solid fa-arrow-trend-up"></i
-          ></a>
-        </div>
-        <div class="text-xs font-light py-2">
-          <a
-            href="https://viper-18.github.io/portfolio/"
-            class="text-white hover:bg-gradient-to-br from-[#52c9f4] to-[#06a8ff] inline-block hover:text-transparent hover:bg-clip-text"
-            target="_blank"
-            >Dharshan Amarnath <i class="fa-solid fa-arrow-trend-up"></i
-          ></a>
-        </div>
+<!--footer-->
+<footer id="contact">
+  <div class="hidden md:visible md:flex md:justify-evenly md:space-x-10 md:text-white md:p-5 md:bg-zinc-900">
+    <div class="flex-row py-2 w-3/12">
+      <h1 class="text-base font-medium pb-2">Portfolio inspired from</h1>
+      <div class="text-xs font-light py-2">
+        <a href="https://www.ojieame.design/#GRAPHIC"
+          class="text-white hover:bg-gradient-to-br from-[#52c9f4] to-[#06a8ff] inline-block hover:text-transparent hover:bg-clip-text"
+          target="_blank">Ojieame <i class="fa-solid fa-arrow-trend-up"></i></a>
       </div>
-      <div class="text-6xl w-3/12 flex justify-center">
-        <div
-          class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 my-auto"
-        >
-          <button class="">
-            <a href="https://github.com/mudasirmattoo" target="_blank"
-              ><i class="fa-brands fa-github"></i
-            ></a>
+      <div class="text-xs font-light py-2">
+        <a href="https://www.seanhalpin.xyz/"
+          class="text-white hover:bg-gradient-to-br from-[#52c9f4] to-[#06a8ff] inline-block hover:text-transparent hover:bg-clip-text"
+          target="_blank">Sean Halpin <i class="fa-solid fa-arrow-trend-up"></i></a>
+      </div>
+      <div class="text-xs font-light py-2">
+        <a href="https://viper-18.github.io/portfolio/"
+          class="text-white hover:bg-gradient-to-br from-[#52c9f4] to-[#06a8ff] inline-block hover:text-transparent hover:bg-clip-text"
+          target="_blank">Dharshan Amarnath <i class="fa-solid fa-arrow-trend-up"></i></a>
+      </div>
+    </div>
+    <div class="text-6xl w-3/12 flex justify-center">
+      <div class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 my-auto">
+        <button class="">
+          <a href="https://github.com/mudasirmattoo" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </button>
+      </div>
+    </div>
+    <div class="flex-row justify-end w-3/12 py-2">
+      <div class="flex justify-end">
+        <h1 class="text-base font-medium text-left">Contact</h1>
+      </div>
+      <div class="flex space-x-6 justify-end">
+        <div class="text-xl py-2">
+          <button
+            class="text-white hover:bg-gradient-to-br from-[#00aeef] to-[#2d388a] inline-block hover:text-transparent hover:bg-clip-text">
+            <a href="https://www.linkedin.com/in/mudasir-mushtaq-47293925b/b" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a>
+          </button>
+        </div>
+
+        <div class="text-xl py-2">
+          <button
+            class="text-white hover:bg-gradient-to-br from-indigo-600 to-pink-500 inline-block hover:text-transparent hover:bg-clip-text">
+            <a href="https://www.instagram.com/mudasirmushtaq_/" target="_blank"><i
+                class="fa-brands fa-instagram"></i></a>
           </button>
         </div>
       </div>
-      <div class="flex-row justify-end w-3/12 py-2">
-        <div class="flex justify-end">
-          <h1 class="text-base font-medium text-left">Contact</h1>
+      <div class="flex space-x-4 justify-end">
+        <div class="text-xl py-2">
+          <button
+            class="text-white hover:bg-gradient-to-br from-[#fbb040] to-[#f9ed32] inline-block hover:text-transparent hover:bg-clip-text">
+            <a href="mailto:work.mudasirmattoo@gmail.com" target="_blank"><i
+                class="fa-solid fa-envelope-circle-check"></i></a>
+          </button>
         </div>
-        <div class="flex space-x-6 justify-end">
-          <div class="text-xl py-2">
-            <button
-              class="text-white hover:bg-gradient-to-br from-[#00aeef] to-[#2d388a] inline-block hover:text-transparent hover:bg-clip-text"
-            >
-              <a
-                href="https://www.linkedin.com/in/mudasir-mushtaq-47293925b/b"
-                target="_blank"
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
-            </button>
-          </div>
 
-          <div class="text-xl py-2">
-            <button
-              class="text-white hover:bg-gradient-to-br from-indigo-600 to-pink-500 inline-block hover:text-transparent hover:bg-clip-text"
-            >
-              <a
-                href="https://www.instagram.com/mudasirmushtaq_/"
-                target="_blank"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-            </button>
-          </div>
-        </div>
-        <div class="flex space-x-4 justify-end">
-          <div class="text-xl py-2">
-            <button
-              class="text-white hover:bg-gradient-to-br from-[#fbb040] to-[#f9ed32] inline-block hover:text-transparent hover:bg-clip-text"
-            >
-              <a href="mailto:work.mudasirmattoo@gmail.com" target="_blank"
-                ><i class="fa-solid fa-envelope-circle-check"></i
-              ></a>
-            </button>
-          </div>
-
-          <div class="text-xl py-2">
-            <button
-              class="text-white hover:bg-gradient-to-br from-green-300 to-green-700 inline-block hover:text-transparent hover:bg-clip-text"
-            >
-              <a href="https://wa.me/917006722538" target="_blank"
-                ><i class="fa-brands fa-whatsapp"></i
-              ></a>
-            </button>
-          </div>
+        <div class="text-xl py-2">
+          <button
+            class="text-white hover:bg-gradient-to-br from-green-300 to-green-700 inline-block hover:text-transparent hover:bg-clip-text">
+            <a href="https://wa.me/917006722538" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          </button>
         </div>
       </div>
     </div>
-
-    <!--footer for phone-->
-    <div class="visible md:hidden">
-      <div
-        class="text-center flex-row justify-center items-center mx-auto mb-14 border border-yellow-500 rounded-lg w-4/6"
-      >
-        <div class="">
-          <h1
-            class="text-xs md:text-sm font-bold text-white tracking-widest text-center p-2"
-          >
-            PORTFOLIO INSPIRED FROM
-          </h1>
-        </div>
-        <div class="text-xs font-light py-2">
-          <a href="https://www.ojieame.design/#GRAPHIC" target="_blank"
-            >Ojieame <i class="fa-solid fa-arrow-trend-up"></i
-          ></a>
-        </div>
-        <div class="text-xs font-light py-2">
-          <a href="https://www.seanhalpin.xyz/" target="_blank"
-            >Sean Halpin <i class="fa-solid fa-arrow-trend-up"></i
-          ></a>
-        </div>
-        <div class="text-xs font-light py-2">
-          <a href="https://viper-18.github.io/portfolio/" target="_blank"
-            >Dharshan Amarnath <i class="fa-solid fa-arrow-trend-up"></i
-          ></a>
-        </div>
-      </div>
-
-      <div class="bg-zinc-900">
-        <div class="py-3">
-          <h1
-            class="text-xs md:text-sm font-bold text-white tracking-widest text-center p-2"
-          >
-            MY SOCIALS
-          </h1>
-        </div>
-        <div class="flex justify-center align-middle py-5">
-          <div class="text-lg my-auto py-2 px-5">
-            <button
-              class="text-white bg-gradient-to-br from-[#00aeef] to-[#2d388a] inline-block text-transparent bg-clip-text"
-            >
-              <a
-                href="https://www.linkedin.com/in/mudasir-mushtaq-47293925b/b"
-                target="_blank"
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
-            </button>
-          </div>
-
-          <div class="text-lg my-auto py-2 px-5">
-            <button
-              class="text-white bg-gradient-to-br from-[#fbb040] to-[#f9ed32] inline-block text-transparent bg-clip-text"
-            >
-              <a href="mailto:work.mudasirmattoo@gmail.com" target="_blank"
-                ><i class="fa-solid fa-envelope-circle-check"></i
-              ></a>
-            </button>
-          </div>
-
-          <div class="px-5 text-6xl">
-            <button class="">
-              <a href="https://github.com/mudasirmattoo" target="_blank"
-                ><i class="fa-brands fa-github"></i
-              ></a>
-            </button>
-          </div>
-
-          <div class="text-lg my-auto py-2 px-5">
-            <button
-              class="text-white bg-gradient-to-br from-indigo-600 to-pink-500 inline-block text-transparent bg-clip-text"
-            >
-              <a
-                href="https://www.instagram.com/mudasirmushtaq_/"
-                target="_blank"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-            </button>
-          </div>
-
-          <div class="text-lg my-auto py-2 px-5">
-            <button
-              class="text-white bg-gradient-to-br from-green-300 to-green-700 inline-block text-transparent bg-clip-text"
-            >
-              <a href="https://wa.me/917006722538" target="_blank"
-                ><i class="fa-brands fa-whatsapp"></i
-              ></a>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <div class="bg-zinc-900 text-center">
-    <p class="text-xs font-thin py-2">
-      ©2023 Mudasir Mushtaq<br />
-      created Feb, 2023
-    </p>
   </div>
+
+  <!--footer for phone-->
+  <div class="visible md:hidden">
+    <div
+      class="text-center flex-row justify-center items-center mx-auto mb-14 border border-yellow-500 rounded-lg w-4/6">
+      <div class="">
+        <h1 class="text-xs md:text-sm font-bold text-white tracking-widest text-center p-2">
+          PORTFOLIO INSPIRED FROM
+        </h1>
+      </div>
+      <div class="text-xs font-light py-2">
+        <a href="https://www.ojieame.design/#GRAPHIC" target="_blank">Ojieame <i
+            class="fa-solid fa-arrow-trend-up"></i></a>
+      </div>
+      <div class="text-xs font-light py-2">
+        <a href="https://www.seanhalpin.xyz/" target="_blank">Sean Halpin <i class="fa-solid fa-arrow-trend-up"></i></a>
+      </div>
+      <div class="text-xs font-light py-2">
+        <a href="https://viper-18.github.io/portfolio/" target="_blank">Dharshan Amarnath <i
+            class="fa-solid fa-arrow-trend-up"></i></a>
+      </div>
+    </div>
+
+    <div class="bg-zinc-900">
+      <div class="py-3">
+        <h1 class="text-xs md:text-sm font-bold text-white tracking-widest text-center p-2">
+          MY SOCIALS
+        </h1>
+      </div>
+      <div class="flex justify-center align-middle py-5">
+        <div class="text-lg my-auto py-2 px-5">
+          <button
+            class="text-white bg-gradient-to-br from-[#00aeef] to-[#2d388a] inline-block text-transparent bg-clip-text">
+            <a href="https://www.linkedin.com/in/mudasir-mushtaq-47293925b/b" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a>
+          </button>
+        </div>
+
+        <div class="text-lg my-auto py-2 px-5">
+          <button
+            class="text-white bg-gradient-to-br from-[#fbb040] to-[#f9ed32] inline-block text-transparent bg-clip-text">
+            <a href="mailto:work.mudasirmattoo@gmail.com" target="_blank"><i
+                class="fa-solid fa-envelope-circle-check"></i></a>
+          </button>
+        </div>
+
+        <div class="px-5 text-6xl">
+          <button class="">
+            <a href="https://github.com/mudasirmattoo" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </button>
+        </div>
+
+        <div class="text-lg my-auto py-2 px-5">
+          <button
+            class="text-white bg-gradient-to-br from-indigo-600 to-pink-500 inline-block text-transparent bg-clip-text">
+            <a href="https://www.instagram.com/mudasirmushtaq_/" target="_blank"><i
+                class="fa-brands fa-instagram"></i></a>
+          </button>
+        </div>
+
+        <div class="text-lg my-auto py-2 px-5">
+          <button
+            class="text-white bg-gradient-to-br from-green-300 to-green-700 inline-block text-transparent bg-clip-text">
+            <a href="https://wa.me/917006722538" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="bg-zinc-900 text-center">
+  <p class="text-xs font-thin py-2">
+    ©2023 Mudasir Mushtaq<br />
+    created Feb, 2023
+  </p>
+</div>
+
 </html>
